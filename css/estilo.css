@@ -29,6 +29,12 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 60px ;
 }
 
+@media screen and (max-width:800px) {
+    .contenedor .contenido-header{
+        flex-direction: column;
+    }
+}
+
 .contenedor1{
     width: 90%;  
     max-width: 1000px;    /*darle estilo a los que sean de la clase contenedor*/
@@ -46,6 +52,7 @@ header::before{
     content: "";
     display: block;
     margin-bottom: 80px;
+
 }
 nav{
     width: 100%;
