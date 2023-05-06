@@ -127,9 +127,9 @@ nav{
     filter: brightness(30%); /* Más oscura*/
     
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     .contenido-header>img {
-        width: 30000px;
+        width: 300%;
         height: 300px;
         object-fit: cover;
         object-position: bottom;
