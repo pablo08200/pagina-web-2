@@ -1,0 +1,812 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ADAPTACION A MOVILES*/
+@media (min-width: 768px) and (max-width: 990px) {
+    .contenido-header{
+        display: none;
+    }
+}
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #1d273b;
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 80%;  
+    max-width: 1000px;    /*darle estilo a los que sean de la clase contenedor*/
+    margin: auto;
+    overflow: hidden; /*recorta imagenes para moldearlas*/
+
+}
+.contenedor .contenido-header{ /*color de la principal contenido*/
+    background: white;
+    padding-top: 60px ;
+}
+
+.contenedor1{
+    width: 90%;  
+    max-width: 1000px;    /*darle estilo a los que sean de la clase contenedor*/
+    margin: auto;
+    overflow: hidden; /*recorta imagenes para moldearlas*/
+    padding: 60px 0;  /*padding arriba y abajo*/
+}
+
+h1{
+    font-size: 50px;
+}
+
+/*header*/
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: #800040;
+    border-bottom: 1px solid transparent;        /*crea el borde de arriba para resoltara encabezado*/ 
+    box-shadow: 1px 1px 10px 0 rgb(0, 0, 0, .2);
+    position: fixed; /*establece posicion del borde de arriba*/
+    top: 0;
+    z-index: 100;
+        transition: ease-in-out 0.5s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+                   
+}
+
+.nav .logo{
+    height: 180px;
+}
+
+.nav .logo img{
+    height: 100%;
+    vertical-align: top;
+}
+
+.enlaces-header{
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+.nav .enlaces-header a{
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hamburguer{
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer ; /*se activa la manita cuando pase por el cursor*/
+    transition: color  0.5s ease-in;
+
+}
+.hamburguer > i{
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-header>img{ /*IMAGEN*/
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    animation: ease-in animat 1s;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    filter: brightness(30%); /* Más oscura*/
+    
+}
+
+/*LOGOS DE FACEBOON IG WSP*/
+.social{
+    position: fixed;
+    left:0;
+    top: 250px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 1px;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social ul{
+    list-style: none;
+
+}
+.social ul li a{
+    display: inline-block;
+    color:#fff;
+    background: #000;
+    padding: 10px 15px ;
+    text-decoration: none;
+    -webkit-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;
+
+    
+
+}
+.social ul li .fa-facebook{background:#3b5998;}
+.social ul li .fa-instagram{background:#c32aa3;}
+.social ul li .fa-whatsapp{background:green;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+
+.contenido-header .centrado  { /*texto centrado encima de la imgaen */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    transform: translate(-50%, -50%);
+    color: #ddd;
+}
+.contenido-header .centrado2 { /*texto 2*/
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    transform: translate(-50%, -50%);
+    color: #ddd;
+}
+/*BOTONES PERSONALIZADOS*/
+.contenido-header  .boton-personalizado{ /*boton estilo boton del principio conocenos*/
+    text-decoration: none;
+    top:38%;
+    left: 45%;
+    font-weight:600;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+}
+
+.contenedor-articulo .articulo .boton-personalizado2{ /*lugares visitados botones*/
+    text-decoration: none;
+    color: white;
+}
+.contenedor-articulo .articulo .boton-personalizado3{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+}
+.contenedor-articulo .articulo .boton-personalizado4{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+}
+
+.contenedor-articulo .articulo .boton-personalizado5{
+    text-decoration: none;
+
+    color: white;
+}
+.contenedor-articulo .articulo .boton-personalizado6{
+    text-decoration: none;
+
+    color: white;
+}
+.contenedor-articulo .articulo .boton-personalizado7{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes animat { /*animaciona  la imagen de fondo */
+    0%{
+        transform: scale(0);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+.textos-header{
+    margin:0 0  0 30px;
+}
+
+.contenido-header p{ /*parrafos*/
+     font-weight: 100;
+     margin-top: 14px;
+     color: #5d6678;
+}
+
+.contenido-header a{  /*FORMATO AL BOTON UNETE*/
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: #800040;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    /*box-shadow: 0 8px 32px rgba(31, 222, 130, .46);*/
+
+}
+
+.articulo a{ /*formato al boton utopia iztapalapa*/
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: #800040;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-size: 50px;
+}
+/*about us*/
+.about-us{
+    background: #f2f2f2; ;
+}
+
+.contenedor-articulo{ /*acomodamos recuadros*/
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.articulo{
+    width: 29%;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px ;
+    transition: 0.5s;
+}
+
+.articulo:hover{ /*cada vez que el mouse pase por el recuadro*/
+    box-shadow: 0 4px 10px rgba(17,29,48, .46 );
+
+}
+.articulo>i{
+    font-size: 30px;
+    color: white;
+    background: #51241f;
+    display: inline-block;
+    width: 70px;  /*sera un cuadrado*/
+    height: 70px ;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%; /*la caja de la imagen sera redonda*/
+    box-shadow: 0 8px 32px rgba(222, 31, 31, 0.151);
+}
+
+.articulo>h3{
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.articulo>p{
+    font-weight: 100;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.articulo>a{
+    color: #5d6678;
+    font-weight: 400;
+    text-decoration: none;
+}
+.articulo>a:hover{
+    color: #1fde82;
+    transition: color .5s;
+}
+
+/*SECCION DE GALERIAS DE IMAGENES*/
+.gallery-container{
+    width: 80%;
+    margin:100px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*dividiremos las imagenes con 3 columnas*/
+    grid-template-rows: repeat(2,300px); /*2 filas del tamaño de 300 pixeles*/
+
+}
+.gallery-container .gallery-card{overflow: hidden;}
+
+
+.gallery-container .gallery-card a{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-container .gallery-card a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.gallery-container .gallery-card a > img:hover{ /*hara el efecto de rotacion de la imagen*/
+    transform: scale(1.5) rotate(30deg);
+}
+/*termina seccion*/
+
+
+/*  questions */
+.questions{
+    /*width: 100%;*/
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions>img{
+    width: 550px;
+    
+}
+
+
+.textos-questions{
+    margin:0 0  0 30px;
+}
+
+.textos-questions p{ /*parrafos*/
+     font-weight: 100;
+     margin-top: 14px;
+     color: #5d6678;
+}
+
+.textos-questions a{  /*FORMATO AL BOTON LEARN  MORE*/
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: #1fde82;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+
+ 
+}
+/*************************************/
+/*SLIDER IMAGENES EN MOVIMIENTO*/
+.slider{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+
+}
+.slider img{
+    width: 1000px;
+    height: 500px;
+
+}
+@keyframes cambio {
+
+    
+    0%{margin-left: 10%;}
+    20%{margin-left: -5%;}
+
+    25%{margin-left: -85%;}
+    45%{margin-left: -85%;}
+
+    50%{margin-left: -185%;}
+    70%{margin-left: -185%;}
+
+    75%{margin-left: -285%;}
+    100%{margin-left: -285%;}
+
+}
+/*TERMINA SLIDER DE IMAGENES*/
+
+/*******************************************/
+/* claseresults2*/
+.results2{
+    background: #51241f;
+    padding-top: 30px ;
+}
+
+.conten-results{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers{ /*contendor donde van los numeros*/
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap; /*si un elementos mide mas que se baje*/
+    justify-content: space-evenly;
+}
+
+.numbers .number{
+    width: 45%;
+    background: rgba(255,255,255,.2);
+    color: white;
+    border-radius: 10px;
+    padding: 40px 35px ;
+    margin-bottom: 20px;
+
+}
+
+.numbers .number h4{ /*h4 es el numero +8454*/
+    color: white;
+    font-size: 30px; /*numero mas grade*/
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+
+.numbers .number p{ /*parrafo*/
+    color: #f2f5fc;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.results-text{
+    width: 37%;
+
+}
+.results-text h4{
+    color: white;
+    font-size: 40px;
+
+}
+
+.results-text p { /*parrafo*/
+    color: white;
+    font-family: 300;
+    margin: 20px 0 ; /*distingir del parrafo y el enlace*/
+
+}
+
+.results-text a{ /*del booton de ingresa aqui*/
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    border-radius:5px; /*crea la caja*/
+} 
+
+.numbers .number a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    border-radius:5px; /*crea la caja*/
+}
+
+/*termina results2*/
+
+/*SERVICES*/
+.services{
+    display: flex;
+    justify-content: space-between; /*poner uno de lado del otro*/
+
+}
+
+.services>img{
+    width: 500px;
+}
+
+.box-skills{ /*web design web develop*/
+    margin: 30px 30px 0 0;
+}
+.box-skills h4{
+    font-size: 24px;
+    background: #f2f2f2;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+.box-skills i{  /*i class="far fa-check-circle"*/
+    color: #1fde82;
+    font-size:20px ;
+}
+
+/*footer*/
+footer{
+    background: #f2f2f2;
+    padding: 60px 0 ;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; /*uno debajo del otro*/
+    justify-content: space-evenly;
+    margin: auto;
+}
+.partFooter{
+    width: 20%;
+    text-align: center;
+
+}
+
+.partFooter h4{ /*todos los h4 dentro de ahi tendran lo siguiente*/
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter a{ /*about services social network*/
+    display:block; /*uno debajo del otro*/
+    text-decoration: none;
+    color: #5d6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out; /*3s en que el color cambie*/
+    margin-bottom: 10px;    
+}
+
+.partFooter a:hover{
+    color: #1fde82;
+}
+
+
+.partFooter img{
+    width: 70%; /*la imagen dentro del partfooter*/
+}
+
+.social-media i {
+    font-size: 20px;
+    display: inline-block; /*icono del lado del otro icono*/
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;     /*creamos el cuadradi 38x38*/
+    height: 38px;
+    line-height: 36px; /*centramos el cuadrado*/
+    cursor: pointer;/*se activara la manita*/
+    margin-top: 20px; /*un poco de separacion*/
+    text-align: center;
+    transition: ease-in-out .3s all;
+    margin-right: 5px; /*un espaciado mas */
+}
+
+.social-media i:hover{ /*cada vez que el maouse pase cambia el color*/
+    color: white;
+    background-color: #1fde82;
+    border-color: #1fde82;
+
+}
+
+/*BREAK PONTS RESPONSIVE*/
+
+@media screen and (max-width:800px){
+    .titulo{
+        font-size: 45px;
+        
+    }
+    .contenido-header{
+        flex-direction: column; /*texto arriba , imagen abajo*/ /*column-reverse*/
+        justify-content: space-evenly;
+        height: 720px;
+    }
+
+    .contenido-header>img{
+        width: 400px;
+
+    }
+    .textos-header{
+        margin: 0;
+    }
+
+    /*ABOUT US*/
+    
+    .articulo{ /*we provide a wide range*/
+        width: 45%; /*dos en la misma fila */
+
+    }
+
+    /*questions*/
+
+    .questions{
+        height: 720px;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .questions>img{
+        width: 400px;
+
+    }
+
+    /*results*/
+    .conten-results{
+        flex-direction: column-reverse; /*ubo arriba del otro*/
+
+    }
+
+    .results-text>a{
+        margin-bottom: 60px;
+
+    }
+    .numbers{
+        width: 100%;
+    }
+    .results-text{
+        width: 100%;
+    }
+
+    /*services*/
+    .services{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .box-skills{
+        margin: 0 0 40px 0;
+
+
+    }
+    .box-skills h4{
+        width: 500px;
+
+    }
+    .services>img{
+        width: 400px;
+
+    }
+
+    /*footer*/
+    footer{
+        justify-content: space-evenly;
+    }
+    .partFooter{
+        width: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
+@media screen and ( max-width:600px){
+    .titulo{
+        font-size: 34px;
+
+    }
+    h1{ /*our creativity*/
+        font-size: 40px; /*se hace mas pequeño*/
+    
+    }
+    .contenido-header{
+        height: 650px;
+    }
+
+    .nav{
+        padding: 0 10px; /*evita que hambugesa desaparezca*/
+    }
+    .contenido-header>img{ /*primer imagen desk*/
+        width: 200px;
+    }
+    .enlaces-header{
+      position:fixed; /*rompe la linea del flexbox del header*/
+      background: #667db6;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      top:0;
+      right: 0;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction:column ;
+      justify-content: space-evenly;
+      clip-path: circle(0.0% at 100% 0); /*hara que el menu header este en forma de circulo*/
+    }
+    /*menu header hara que aparezca y desaparezca*/
+    .nav .menudos{
+        -webkit-clip-path: circle(150% at 100% 0);
+        clip-path: circle(150% at 100% 0); /*hara que el menu header este en forma de circulo*/
+    }
+
+
+
+    /*esta dara diseño al header palabras que dicen inicio*/
+    .nav .enlaces-header a{
+        color: #fff;
+    }
+    .hamburguer{
+        display: block;
+
+    }
+
+    /*about us*/
+    .articulo{
+        width: 95%; /*uno por fila*/
+
+    }
+    /*questions*/
+    .questions>img{
+        width: 200px;
+
+    }
+
+    /*results*/
+    .numbers .number{ /*uno por fila*/
+        width: 95%;
+    
+    }
+    .results-text h4{
+        font-size: 35px; /*se adapta a cualquier tamaño*/
+    }
+
+    /*services*/
+    .services>img{
+        width: 200px;
+
+    }
+    .box-skills h4{
+        width: 100%;
+    }
+    /*footer redes*/
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+}
+
+
