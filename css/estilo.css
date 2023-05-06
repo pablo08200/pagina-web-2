@@ -103,7 +103,7 @@ header::before{
 }
 
 .contenido-header{
-    width: 100%;
+    width: auto;
     height: 600px;
     display: contents;
     justify-content: space-between;
