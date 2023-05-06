@@ -111,7 +111,7 @@ header::before{
 }
 
 .contenido-header>img{ /*IMAGEN*/
-    height:100vh;
+    height:200vh;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
