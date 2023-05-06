@@ -29,11 +29,6 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 60px ;
 }
 
-@media screen and (max-width:800px) {
-    .contenedor .contenido-header{
-        flex-direction: column;
-    }
-}
 
 .contenedor1{
     width: 90%;  
@@ -187,6 +182,7 @@ nav{
     transform: translate(-50%, -50%);
     color: #ddd;
 }
+
 .contenido-header .centrado2 { /*texto 2*/
     position: absolute;
     top: 37%;
@@ -206,7 +202,31 @@ nav{
     position: absolute;
     color: white;
 }
+@media screen and (max-width:1000px) {
+    .contenido-header .centrado{
+       flex-direction: column;
+       height: 120px;
+       justify-content: space-evenly;
+   }
 
+}
+@media screen and (max-width:1000px) {
+    .contenido-header .centrado2{
+       flex-direction: column;
+       height: 140px;
+       justify-content: space-evenly;
+       font-size: 25px;
+   }
+
+}
+@media screen and (max-width:800px) {
+    .contenido-header .boton-personalizado{
+       flex-direction: column;
+       justify-content: space-evenly;
+       font-size: 20px;
+   }
+
+}
 .contenedor-articulo .articulo .boton-personalizado2{ /*lugares visitados botones*/
     text-decoration: none;
     color: white;
