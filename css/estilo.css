@@ -46,7 +46,7 @@ header::before{
     content: "";
     display: block;
     margin-bottom: 80px;
-    padding: 40px;
+    padding: 320px;
 }
 nav{
     width: 100%;
