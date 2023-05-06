@@ -131,6 +131,8 @@ nav{
     .contenido-header>img {
         width: 300%;
         height: 300px;
+        object-fit: cover;
+        object-position: bottom;
       }
 }
 
