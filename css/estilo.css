@@ -127,6 +127,12 @@ nav{
     filter: brightness(30%); /* Más oscura*/
     
 }
+@media only screen and (max-width: 480px) {
+    .contenido-header>img {
+        width: 100%;
+        height: 300px;
+      }
+}
 
 /*LOGOS DE FACEBOON IG WSP*/
 .social{
