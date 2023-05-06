@@ -129,7 +129,7 @@ nav{
 }
 @media only screen and (max-width: 480px) {
     .contenido-header>img {
-        width: 150%;
+        width: 300%;
         height: 300px;
       }
 }
