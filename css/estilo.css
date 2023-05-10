@@ -130,7 +130,7 @@ nav{
 
 @media screen and  (max-width: 600px) {
     .contenido-header {
-        max-width: 500px;
+        max-width: 300px;
    
       }
 }
@@ -686,7 +686,7 @@ footer{
     .contenido-header{
         flex-direction: column; /*texto arriba , imagen abajo*/ /*column-reverse*/
         justify-content: space-evenly;
-        height: 720px;
+        height: auto ; /*720px*/
     }
 
     .contenido-header>img{
