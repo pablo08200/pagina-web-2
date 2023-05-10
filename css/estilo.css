@@ -213,7 +213,7 @@ nav{
     .contenido-header .centrado{
        flex-direction: column;
        height: 120px; /*120px*/
-       top:70%;
+       top: 66%;
        justify-content: space-evenly;
        color: #000;
    }
