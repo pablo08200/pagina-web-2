@@ -131,16 +131,16 @@ nav{
     .contenido-header>img {
         max-width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: bottom;
+        /*object-fit: cover;
+        object-position: bottom;*/
       }
 }
 @media only screen and (max-width: 1000px) {
     .contenido-header {
         max-width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: bottom;
+        /*object-fit: cover;
+        object-position: bottom;*/
       }
 }
 
