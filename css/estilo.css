@@ -235,7 +235,7 @@ nav{
        flex-direction: column;
        justify-content: space-evenly;
        margin-bottom: 50px;
-       float: right;
+       float: inline-end;
        clear: both;
        position: absolute;
        
