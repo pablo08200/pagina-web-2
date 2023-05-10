@@ -480,9 +480,9 @@ nav{
 
 }
 /*ADAPTACION A MOVILES*/
-@media (min-width: 500px) and (max-width: 700px) {
+@media   (max-width: 100%) {
     .slider img{
-        display: none;
+        height: auto;
     }
 }
 @keyframes cambio {
