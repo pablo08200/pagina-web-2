@@ -684,9 +684,8 @@ footer{
         
     }
     .contenido-header{
-       /* flex-direction: column-reverse; /*texto arriba , imagen abajo*/ /*column-reverse*/
-       max-width: 300px;
-      /*  justify-content: space-evenly;*/
+      flex-direction: column-reverse; /*texto arriba , imagen abajo*/ /*column-reverse*/
+      justify-content: space-evenly;
         height: auto ; /*720px*/
     }
 
