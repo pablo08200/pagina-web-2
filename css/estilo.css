@@ -105,7 +105,7 @@ nav{
 }
 
 .contenido-header{
-    max-width: 100%; /*estaba en witdh*/
+    width: 100%; /*estaba en witdh*/
     height: auto;
     display: contents;
     justify-content: space-between;
