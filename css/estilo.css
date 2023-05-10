@@ -113,7 +113,7 @@ nav{
 }
 
 .contenido-header>img{ /*IMAGEN*/
-    height:100vh;
+    height:auto;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
