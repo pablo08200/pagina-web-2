@@ -692,6 +692,7 @@ footer{
       flex-direction: column-reverse; /*texto arriba , imagen abajo*/ /*column-reverse*/
       justify-content: space-evenly;
         height: 50px ; /*720px*/
+        width: 100%; /*estaba en witdh*/
         display: grid;
     }
 
