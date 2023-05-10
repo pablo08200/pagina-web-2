@@ -135,6 +135,14 @@ nav{
         object-position: bottom;
       }
 }
+@media only screen and (max-width: 1000px) {
+    .contenido-header {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: bottom;
+      }
+}
 
 /*LOGOS DE FACEBOON IG WSP*/
 .social{
