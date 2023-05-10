@@ -128,7 +128,7 @@ nav{
     
 }
 
-@media screen and  (max-width: 900px) {
+@media screen and  (max-width: 2000000px) {
     .contenido-header {
         max-width: 100%;
         height: auto;
