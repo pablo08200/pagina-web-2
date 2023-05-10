@@ -475,8 +475,8 @@ nav{
 
 }
 .slider img{
-    width: 1000px;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
 
 }
 /*ADAPTACION A MOVILES*/
