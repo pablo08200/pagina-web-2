@@ -128,12 +128,12 @@ nav{
     
 }
 
-@media screen and  (max-width: 600px) {
+/*@media screen and  (max-width: 600px) {
     .contenido-header {
         max-width: 300px;
    
       }
-}
+}*/
 
 /*LOGOS DE FACEBOON IG WSP*/
 .social{
