@@ -212,7 +212,7 @@ nav{
 @media screen and (max-width:1000px) {
     .contenido-header .centrado{
        flex-direction: column;
-       height: auto; /*120px*/
+       height: 120px; /*120px*/
        justify-content: space-evenly;
        color: #000;
    }
