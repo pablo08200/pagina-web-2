@@ -481,7 +481,7 @@ nav{
 }
 /*ADAPTACION A MOVILES*/
 @media (min-width: 500px) and (max-width: 700px) {
-    .slider{
+    .slider img{
         display: none;
     }
 }
