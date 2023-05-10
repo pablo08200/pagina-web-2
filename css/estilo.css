@@ -106,7 +106,7 @@ nav{
 
 .contenido-header{
     width: 100%;
-    height: auto;
+    height: 600px;
     display: contents;
     justify-content: space-between;
     align-items: center;
@@ -127,13 +127,20 @@ nav{
     filter: brightness(30%); /* Más oscura*/
     
 }
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+    .contenido-header>img {
+        max-width: 100%;
+        height: auto;
+        /*object-fit: cover;
+        object-position: bottom;*/
+      }
+}
+@media only screen and (max-width: 1000px) {
     .contenido-header {
         max-width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: bottom;
+        /*object-fit: cover;
+        object-position: bottom;*/
       }
 }
 
