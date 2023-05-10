@@ -678,7 +678,7 @@ footer{
 
 /*BREAK PONTS RESPONSIVE*/
 
-@media screen and (max-width:2000px){
+@media screen and (max-width:800px){
     .titulo{
         font-size: 45px;
         
@@ -691,7 +691,7 @@ footer{
     }
 
     .contenido-header>img{
-        width: 400px;
+        width: 700px;
 
     }
     .textos-header{
