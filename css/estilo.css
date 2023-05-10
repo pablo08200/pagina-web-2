@@ -213,9 +213,9 @@ nav{
     .contenido-header .centrado{
        flex-direction: column;
        height: 120px; /*120px*/
-       top: 66%;
+       top: 62%;
        justify-content: space-evenly;
-       color: #000;
+       color: #ddd;
    }
 
 }
@@ -227,7 +227,7 @@ nav{
        font-size: 25px; /*25*/
        font-weight: 10px;
        text-align: right;
-       color: #000;
+       color: #ddd;
        top:78%;
    }
 
