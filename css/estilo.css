@@ -693,7 +693,7 @@ footer{
       justify-content: space-evenly;
         height: 50px ; /*720px*/
         width: 100%; /*estaba en witdh*/
-        display: grid;
+        display: contents;
     }
 
     .contenido-header>img{
