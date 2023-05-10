@@ -692,7 +692,7 @@ footer{
       flex-direction: column-reverse; /*texto arriba , imagen abajo*/ /*column-reverse*/
       justify-content: space-evenly;
         height: auto ; /*720px*/
-        display: contents;
+        display: grid;
     }
 
     .contenido-header>img{
