@@ -221,7 +221,7 @@ nav{
 @media screen and (max-width:1000px) {
     .contenido-header .centrado2{
        flex-direction: column;
-       height: auto; /*140px*/
+       height: 140px; /*140px*/
        justify-content: space-evenly;
        font-size: 25px; /*25*/
        font-weight: 10px;
