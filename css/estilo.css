@@ -223,7 +223,7 @@ nav{
        flex-direction: column;
        height: auto; /*140px*/
        justify-content: space-evenly;
-       font-size: 25px;
+       font-size: 14px; /*25*/
        font-weight: 10px;
        color: #000;
    }
