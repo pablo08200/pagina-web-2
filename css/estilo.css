@@ -130,10 +130,9 @@ nav{
 
 @media screen and  (max-width: 600px) {
     .contenido-header {
-        max-width: max-content;
-        height: max-content;
-        object-fit: cover;
-        object-position: bottom;
+        max-width: 300px;
+        height: auto;
+      
       }
 }
 
