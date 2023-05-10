@@ -128,9 +128,9 @@ nav{
     
 }
 
-@media screen and  (max-width: 2000000px) {
+@media screen and  (max-width: 600px) {
     .contenido-header {
-        max-width: 100%;
+        max-width: max-content;
         height: auto;
         object-fit: cover;
         object-position: bottom;
