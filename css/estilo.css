@@ -691,13 +691,13 @@ footer{
     .contenido-header{
       flex-direction: column-reverse; /*texto arriba , imagen abajo*/ /*column-reverse*/
       justify-content: space-evenly;
-        height: 50px ; /*720px*/
+        height: 10px ; /*720px*/
         width: 100%; /*estaba en witdh*/
         display: contents;
     }
 
     .contenido-header>img{
-        width: 50px;
+        width: 100px;
 
     }
     .textos-header{
