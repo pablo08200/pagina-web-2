@@ -214,6 +214,7 @@ nav{
        flex-direction: column;
        height: auto; /*120px*/
        justify-content: space-evenly;
+       color: #000;
    }
 
 }
@@ -224,6 +225,7 @@ nav{
        justify-content: space-evenly;
        font-size: 25px;
        font-weight: 10px;
+       color: #000;
    }
 
 }
