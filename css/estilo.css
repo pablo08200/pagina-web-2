@@ -125,7 +125,6 @@ nav{
     border-radius: 4px;
     padding: 10px;
     filter: brightness(30%); /* Más oscura*/
-    left: 50px ;
     
 }
 
@@ -789,16 +788,16 @@ footer{
         font-size: 40px; /*se hace mas pequeño*/
     
     }
-    .contenido-header{
+   /* .contenido-header{
         height: 650px;
-    }
+    }*/
 
     .nav{
         padding: 0 10px; /*evita que hambugesa desaparezca*/
     }
-    .contenido-header>img{ /*primer imagen desk*/
+    /*.contenido-header>img{/*primer imagen desk
         width: 200px;
-    }
+    }*/
     .enlaces-header{
       position:fixed; /*rompe la linea del flexbox del header*/
       background: #667db6;  /* fallback for old browsers */
