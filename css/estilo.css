@@ -226,9 +226,10 @@ nav{
        justify-content: space-evenly;
        font-size: 25px; /*25*/
        font-weight: 10px;
-       text-align: left;
+       text-align: right;
        color: #ddd;
        top:78%;
+       right: 50%;
    }
 
 }
