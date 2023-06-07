@@ -493,7 +493,7 @@ nav{
 @media screen and (max-width: 800px) { /*100%*/
     .slider img{
         height: auto;
-        max-width: 100%;
+        width: 100%;
     } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
