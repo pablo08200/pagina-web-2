@@ -703,8 +703,10 @@ footer{
     }
 
     .contenido-header>img{
-        height: 720px;
-        width: 720px;
+       /* height: 720px;
+        width: 720px;*/
+        height: 100%;
+        width: 100%;
 
     }
     .textos-header{
