@@ -226,7 +226,7 @@ nav{
        justify-content: space-evenly;
        font-size: 25px; /*25*/
        font-weight: 10px;
-       text-align: right;
+       text-align: left;
        color: #ddd;
        top:78%;
    }
