@@ -216,7 +216,7 @@ nav{
        top: 62%;
        justify-content: center;
        color: #ddd;
-       /*display: none;*/
+       display: none;
 
    }
 
@@ -231,7 +231,7 @@ nav{
        text-align: right;
        color: #ddd;
        top:78%;
-      /* display: none;*/
+       display: none;
 
    }
 
