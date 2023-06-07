@@ -202,7 +202,7 @@ nav{
 /*BOTONES PERSONALIZADOS*/
 .contenido-header  .boton-personalizado{ /*boton estilo boton del principio conocenos*/
     text-decoration: none;
-    top:38%;
+    top:50%;
     left: 45%;
     font-weight:600;
     font-size: 20px;
