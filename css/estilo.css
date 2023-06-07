@@ -492,7 +492,8 @@ nav{
 /*ADAPTACION A MOVILES*/
 @media (max-width: 100%) {
     .slider img{
-        height: auto;
+        height: 100%;
+        width: 100%;
     }
 }
 @keyframes cambio {
