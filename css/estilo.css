@@ -492,7 +492,7 @@ nav{
 .slider ul{
     display: flex;
     animation: cambio 20s infinite alternate linear;
-    width: 330%;
+    width: 500%;
 }
 .slider li{
     width: 100%;
