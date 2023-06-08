@@ -514,21 +514,17 @@ nav{
 @keyframes cambio {
 
     
-    0%{margin-left: 10%;}
-    20%{margin-left: -5%;}
+    0% {margin-left: 10%;}
+    20% {margin-left: -5%;}
+    25% {margin-left: -85%;}
+    45% {margin-left: -85%;}
+    50% {margin-left: -185%;}
+    70% {margin-left: -185%;}
+    75% {margin-left: -285%;}
+    100% {margin-left: -385%;}
+    105% {margin-left: -485%;}
+    110% {margin-left: -585%;}
 
-    25%{margin-left: -85%;}
-    45%{margin-left: -85%;}
-
-    50%{margin-left: -185%;}
-    70%{margin-left: -185%;}
-
-    75%{margin-left: -285%;}
-    100%{margin-left: -285%;}
-
-    100%{margin-left: -385%;}
-    130%{margin-left: -385%;}
-    
 
 }
 /*TERMINA SLIDER DE IMAGENES*/
