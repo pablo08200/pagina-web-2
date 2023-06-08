@@ -486,13 +486,13 @@ nav{
 /*SLIDER IMAGENES EN MOVIMIENTO*/
 .slider{
     width: 100%;
-    height: fit-content;
+    height: auto;/*fit-content;*/
     overflow: hidden;
 }
 .slider ul{
     display: flex;
-    animation: cambio 20s infinite alternate linear;
-    width: 500%;
+    animation: cambio 20s infinite alternate ;
+    width: 480%;
 }
 .slider li{
     width: 100%;
@@ -515,15 +515,25 @@ nav{
 
     
     0% {margin-left: 10%;}
-    20% {margin-left: -5%;}
-    25% {margin-left: -85%;}
-    45% {margin-left: -85%;}
-    50% {margin-left: -185%;}
-    70% {margin-left: -185%;}
-    75% {margin-left: -285%;}
-    100% {margin-left: -385%;}
-    105% {margin-left: -485%;}
-    110% {margin-left: -485%;}
+    20% {margin-left: 10%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+
+    100% {margin-left: -400%;}
+    120% {margin-left: -400%;}
+
+    125% {margin-left: -500%;}
+    145% {margin-left: -500%;}
+
+    150% {margin-left: -600%;}
+    170% {margin-left: -600%;}
 
 
 }
