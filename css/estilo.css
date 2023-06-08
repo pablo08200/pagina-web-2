@@ -241,9 +241,9 @@ nav{
        flex-direction: column;
        justify-content: space-evenly;
        margin-bottom: 50px;
-       top:65%;
-       right: 60%;
-       /*left: 70%;*/
+       top:25%;
+       /*right: 90%;*/
+       left: 70%;
        position: absolute;
        
    }
