@@ -285,7 +285,13 @@ nav{
     height: 100vh;
     width: 100vh;
 }
-
+/*adaptacion a movil imagem de fondo*/
+@media screen and (max-width: 800px) { /*100%*/
+    .contenedor-articulo>img{
+        height: 100%;
+        width: 80%;
+    } /*screen and (max-width:800px)*/
+}
 
 @keyframes animat { /*animaciona  la imagen de fondo */
     0%{
