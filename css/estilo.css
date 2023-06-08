@@ -504,7 +504,7 @@ nav{
     height: 500px;
 
 }
-/*ADAPTACION A MOVILES*/
+/*ADAPTACION A MOVILES IMAGENES SLIDER*/
 @media screen and (max-width: 800px) { /*100%*/
     .slider img{
         height: 100%;
@@ -525,6 +525,10 @@ nav{
 
     75%{margin-left: -285%;}
     100%{margin-left: -285%;}
+
+    100%{margin-left: -385%;}
+    130%{margin-left: -385%;}
+    
 
 }
 /*TERMINA SLIDER DE IMAGENES*/
