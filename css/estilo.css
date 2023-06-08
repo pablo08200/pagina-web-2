@@ -277,6 +277,15 @@ nav{
     text-decoration: none;
     color: white;
 }
+.contenedor-articulo>img{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+}
+
 
 @keyframes animat { /*animaciona  la imagen de fondo */
     0%{
