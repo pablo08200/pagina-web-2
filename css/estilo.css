@@ -264,6 +264,16 @@ nav{
    
    
 }
+
+/*adaptacion a moviles*/
+@media screen and (max-width: 800px) { /*100%*/
+    .video-container>video{
+        height: 100%;
+        width: 80%;
+    } /*screen and (max-width:800px)*/
+}
+
+
 /*termina seccion de video*/
 
 .contenedor-articulo .articulo .boton-personalizado2{ /*lugares visitados botones*/
