@@ -923,6 +923,26 @@ footer{
         width: 95%;
         margin-bottom: 40px;
     }
+
+
+    /*comentarios FACEBOOK*/
+    #comentarios{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        overflow: hidden; /*Controla el desbordamiento si el contenido es más grande que el contenedor*/
+    }
+
+    @media screen and(max-width480px){
+        #comentarios{
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+    }
+
+
 }
 
 
