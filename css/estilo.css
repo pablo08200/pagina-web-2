@@ -933,7 +933,7 @@ footer{
         overflow: hidden; /*Controla el desbordamiento si el contenido es más grande que el contenedor*/
     }
 
-    @media screen and(max-width480px){
+    @media screen and(max-width: 480px){
         #comentarios{
             max-width: 100%;
             width: 100%;
