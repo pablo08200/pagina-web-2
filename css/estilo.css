@@ -932,6 +932,11 @@ footer{
         height: auto;
         overflow: hidden; /*Controla el desbordamiento si el contenido es más grande que el contenedor*/
     }
+    #comenatios h2{
+        font-weight: bold;
+        font-style: normal;
+        color: #51241f;
+    }
 
     @media screen and(max-width: 480px){
         #comentarios{
