@@ -31,3 +31,15 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click",function(){
     }
     enlacesHeader.classList.toggle("menudos")
 })
+
+document.querySelectorAll('.video-container video').forEach(vid => {
+    vid.onclick = () =>{
+        document.querySelectorAll('.popup-video').style.display = 'block';
+        document.querySelectorAll('.popup-video video').src = vid.getAttribute('src');
+    }
+});
+
+document.querySelectorAll('.popup-video span').onclick = () =>{
+    document.querySelectorAll('.popup-video').style.display = 'none';
+
+}
