@@ -286,7 +286,7 @@ nav{
 .contenedorVideos{
     position: relative;
     min-height: 100vh;
-    background: #334;
+    background:  #800040;
 }
 .contenedorVideos h1{
     color: #fff;
