@@ -253,9 +253,9 @@ nav{
 
 }
 
-/*diseño del video*/
+/*diseño del video principal*/
 
-.video-container{
+.video-contenedor{
     display: flex;
     justify-content: center;
     margin-top: 20px; /*ajusta al margen suprior necesario*/
@@ -271,7 +271,7 @@ nav{
 
 /*adaptacion a moviles*/
 @media screen and (max-width: 800px) { /*100%*/
-    .video-container>video{
+    .video-contenedor>video{
         height: 100%;
         width: 80%;
     } /*screen and (max-width:800px)*/
