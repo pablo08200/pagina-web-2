@@ -923,6 +923,9 @@ footer{
         width: 95%;
         margin-bottom: 40px;
     }
+    .partFooter img{
+        margin-right: 25px;
+    }
 
 
     /*comentarios FACEBOOK*/
