@@ -622,7 +622,7 @@ nav{
 
 }
 /*ADAPTACION A MOVILES IMAGENES SLIDER*/
-@media screen and (max-width: 800px) { /*100%*/
+@media screen { /*100%*/
    /* .slider img{
         height: auto;
         width: 100%;
@@ -649,9 +649,9 @@ nav{
         list-style: none;
     }
     .slider img{
-      height: auto;
       max-width: 100%;
-      object-fit: cover;
+      height: auto;
+      object-fit: contain;
     } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
