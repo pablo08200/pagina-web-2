@@ -663,7 +663,7 @@ nav{
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-900%);
+    transform: translateX(-100%);
   }
 }
 /*TERMINA SLIDER DE IMAGENES*/
