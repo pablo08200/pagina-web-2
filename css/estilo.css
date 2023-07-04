@@ -627,8 +627,13 @@ nav{
         height: auto;
         width: 100%;
     } /*screen and (max-width:800px)*/
+    .slider{
+         width: 100%;
+        height: auto;
+        overflow: hidden;
+    }   
     .slider ul{
-        width: 480%;
+        width: 550%;
         display: flex; /*diseño a bloques*/
        /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
         /*overflow-x: auto;*/
