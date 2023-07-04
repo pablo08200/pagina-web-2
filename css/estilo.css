@@ -629,7 +629,7 @@ nav{
     } /*screen and (max-width:800px)*/
     .slider ul{
         width: auto;
-        display: block; /*diseño a bloques*/
+        display: flex; /*diseño a bloques*/
         white-space: nowrap; /*evita el salto de linea entre imagenes*/
         overflow-x: auto;
         animation: cambio-mobile 50s infinite linear;
