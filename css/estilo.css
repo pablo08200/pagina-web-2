@@ -639,7 +639,7 @@ nav{
         /*overflow-x: auto;*/
         padding: 0px;
         margin: 0px;
-        animation: cambio-mobile 40s infinite linear;
+        animation: cambio-mobile 50s infinite linear;
     }
     .slider li{
         width: calc(100% / 8); /* Ajusta el ancho según la cantidad de imágenes */
