@@ -637,7 +637,7 @@ nav{
         flex: 0 0 12.5%; /* Ajusta el ancho según la cantidad de imágenes */
        /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
         /*overflow-x: auto;*/
-        animation: cambio-mobile 40s infinite linear;
+        animation: cambio-mobile 50s infinite linear;
     }
     .slider li{
         width: 100%; /* Ajusta el ancho según la cantidad de imágenes */
