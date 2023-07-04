@@ -629,9 +629,15 @@ nav{
     } /*screen and (max-width:800px)*/
     .slider ul{
         width: 100%;
+        display: block; /*diseño a bloques*/
+        white-space: nowrap; /*evita el salto de linea entre imagenes*/
+        overflow-x: auto;
     }
     .slider li{
         width: 100%;
+        display: inline-block; /*coloca las imagenes en linea*/
+        white-space: normal; /*restaura el salto de linea*/
+        overflow-y: hidden; /*oculta el dezplazamiento horizontal*/
     }
 }
 @keyframes cambio {
