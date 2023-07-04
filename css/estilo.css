@@ -627,6 +627,12 @@ nav{
         height: auto;
         width: 100%;
     } /*screen and (max-width:800px)*/
+    .slider ul{
+        width: 100%;
+    }
+    .slider li{
+        width: 100%;
+    }
 }
 @keyframes cambio {
 
