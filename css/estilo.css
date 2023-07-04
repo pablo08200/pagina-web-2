@@ -600,13 +600,15 @@ nav{
 /*SLIDER IMAGENES EN MOVIMIENTO*/
 .slider{
     width: 100%;
-    height: auto;/*fit-content;*/
-    overflow: hidden;
+  height: auto;
+  overflow: hidden;
 }
 .slider ul{
     display: flex;
-    animation: cambio 20s infinite alternate ;
-    width: 480%;
+    animation: cambio 60s infinite linear;
+    width:500%;
+    padding: 0;
+    margin: 0;
 }
 .slider li{
     width: 100%;
@@ -617,41 +619,24 @@ nav{
     max-width: 1000px;
     height: 500px;
 
+
 }
 /*ADAPTACION A MOVILES IMAGENES SLIDER*/
 @media screen and (max-width: 800px) { /*100%*/
     .slider img{
-        height: 100%;
-        width: 80%;
+        height: auto;
+        width: 100%;
     } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
 
     
-    0% {margin-left: 10%;}
-    20% {margin-left: 10%;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    95% {margin-left: -300%;}
-
-    100% {margin-left: -400%;}
-    120% {margin-left: -400%;}
-
-    125% {margin-left: -500%;}
-    145% {margin-left: -500%;}
-
-    150% {margin-left: -600%;}
-    170% {margin-left: -600%;}
-
-    175% {margin-left: -700%;}
-    195% {margin-left: -700%;}
-
+    0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
 
 }
 /*TERMINA SLIDER DE IMAGENES*/
