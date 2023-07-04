@@ -649,7 +649,7 @@ nav{
         list-style: none;
     }
     .slider img{
-      max-width: 100%;
+      width: 100%;
       height: auto;
       object-fit: contain;
     } /*screen and (max-width:800px)*/
