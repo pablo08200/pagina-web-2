@@ -650,7 +650,7 @@ nav{
     }
     .slider img{
       height: auto;
-      width: 100%;
+      width: 50%;
       /* object-fit: contain;*/
     } /*screen and (max-width:800px)*/
 }
