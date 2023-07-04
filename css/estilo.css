@@ -633,7 +633,7 @@ nav{
         overflow: hidden;
     }   
     .slider ul{
-        width: 500%; /* Ajusta el ancho según la cantidad de imágenes */
+        width: 800%; /* Ajusta el ancho según la cantidad de imágenes */
         flex: 0 0 12.5%; /* Ajusta el ancho según la cantidad de imágenes */
        /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
         /*overflow-x: auto;*/
