@@ -628,7 +628,7 @@ nav{
         width: 100%;
     } /*screen and (max-width:800px)*/
     .slider ul{
-        width: 500%;
+        width: 480%;
         display: flex; /*diseño a bloques*/
        /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
         /*overflow-x: auto;*/
@@ -637,7 +637,7 @@ nav{
         animation: cambio-mobile 50s infinite linear;
     }
     .slider li{
-        width: auto;
+        width: 100%;
        /*display: inline-block; /*coloca las imagenes en linea*/
        /* white-space: normal; /*restaura el salto de linea*/
         /*overflow-y: hidden; /*oculta el dezplazamiento horizontal*/
