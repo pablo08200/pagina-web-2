@@ -639,6 +639,11 @@ nav{
         white-space: normal; /*restaura el salto de linea*/
         overflow-y: hidden; /*oculta el dezplazamiento horizontal*/
     }
+    .slider img{
+       max-width: 100%;
+       height: auto;
+       object-fit: contain;
+    } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
 
