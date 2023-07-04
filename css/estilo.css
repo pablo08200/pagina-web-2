@@ -622,7 +622,7 @@ nav{
 
 }
 /*ADAPTACION A MOVILES IMAGENES SLIDER*/
-@media screen { /*100%*/
+@media screen and (max-width:800px){ /*100%*/
    /* .slider img{
         height: auto;
         width: 100%;
