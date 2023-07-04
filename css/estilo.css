@@ -632,6 +632,7 @@ nav{
         display: block; /*diseño a bloques*/
         white-space: nowrap; /*evita el salto de linea entre imagenes*/
         overflow-x: auto;
+        animation: cambio-mobile 50s infinite linear;
     }
     .slider li{
         width: auto;
@@ -655,6 +656,15 @@ nav{
         transform: translateX(-100%);
       }
 
+}
+
+@keyframes  cambio-mobile{
+    0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-900%);
+  }
 }
 /*TERMINA SLIDER DE IMAGENES*/
 
