@@ -629,12 +629,12 @@ nav{
     } /*screen and (max-width:800px)*/
     .slider{
         width: 100%;
-        height: auto;
+        max-height: 500px;
         overflow: hidden;
     }   
     .slider ul{
         width: 500%; /* Ajusta el ancho según la cantidad de imágenes */
-        display: flex; /*diseño a bloques*/
+        flex: 0 0 12.5%; /* Ajusta el ancho según la cantidad de imágenes */
        /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
         /*overflow-x: auto;*/
         animation: cambio-mobile 40s infinite linear;
@@ -647,9 +647,9 @@ nav{
         list-style: none;
     }
     .slider img{
-        width: 200px;
-        height: 100px;
-      /*object-fit: contain;*/
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
