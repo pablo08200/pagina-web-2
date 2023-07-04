@@ -651,7 +651,7 @@ nav{
     .slider img{
       height: auto;
       max-width: 100%;
-      object-fit: contain;
+      object-fit: cover;
     } /*screen and (max-width:800px)*/
 }
 @keyframes cambio {
