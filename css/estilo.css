@@ -647,7 +647,7 @@ nav{
         list-style: none;
     }
     .slider img{
-        width: 300;
+        width: 300px;
         height: 200px;
         object-fit: contain;
     } /*screen and (max-width:800px)*/
