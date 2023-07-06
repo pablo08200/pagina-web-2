@@ -597,7 +597,38 @@ nav{
  
 }
 /*************************************/
-/*SLIDER IMAGENES EN MOVIMIENTO*/
+
+/*glitch efect*/
+
+.textoddd {
+    font: bold 60px/1 arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #51241f;
+    text-shadow: 0  2px  0  #8b6e15,
+                 0  4px  0  #7c6213,
+                 0  6px  0   #6e5611, 
+                 0  8px  0   #5f4b0e, 
+                 0 10px  0   #503f0c,
+                 0 12px  0   #41330a,
+                3px 8px 15px rgba(0,0,0,0.1),
+                3px 8px  5px rgba(0,0,0,0.3);
+  }
+
+
+/*SLIDER IMAGENES EN MOVIMIENTO Y TEXTO*/
+/*.slider h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: justify;
+    text-align: center;
+    font-family: verdana, arial, helvetica;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #51241f;
+
+  
+}*/
 .slider{
     width: 100%;
   height: auto;
@@ -623,10 +654,7 @@ nav{
 }
 /*ADAPTACION A MOVILES IMAGENES SLIDER*/
 @media screen and (max-width:800px){ /*100%*/
-   /* .slider img{
-        height: auto;
-        width: 100%;
-    } /*screen and (max-width:800px)*/
+
     .slider{
         width: 100%;
         max-height: 500px;
@@ -635,15 +663,11 @@ nav{
     .slider ul{
         width: 700%; /* Ajusta el ancho según la cantidad de imágenes */
         flex: 0 0 12.5%; /* Ajusta el ancho según la cantidad de imágenes */
-       /* white-space: nowrap; /*evita el salto de linea entre imagenes*/
-        /*overflow-x: auto;*/
+       
         animation: cambio-mobile 40s infinite linear;
     }
     .slider li{
         width: 100%; /* Ajusta el ancho según la cantidad de imágenes */
-       /*display: inline-block; /*coloca las imagenes en linea*/
-       /* white-space: normal; /*restaura el salto de linea*/
-        /*overflow-y: hidden; /*oculta el dezplazamiento horizontal*/
         list-style: none;
     }
     .slider img{
